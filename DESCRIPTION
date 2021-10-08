@@ -1,12 +1,26 @@
 Package: gldHarmonizeR
-Title: What the Package Does (One Line, Title Case)
+Title: Global Labor Database Support Functions
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    c(person(given = "GLD", 
+            family = "Focal Point", 
+            email = gld@worldbank.org, 
+            role = c("own")),
+      person(given = "Alexandra",
+             role = c("ctb")),
+      person(given = "Junying",
+             email = "jtong1@worldbank.org",
+             role  = c("ctb")),
+      person(given = "Tom",
+             family = "Mosher",
+             email = "tmosher@worldbank.org",
+             role = c("aut", "ctb")),
+      person(given = "Mario", 
+             family = "Gronert", 
+             email = mgronert@worldbank.org, 
+             role = c("ctb")))
+Description: A lightweight set of tools to simplify complex or repeated tasks in survey harmonization.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
