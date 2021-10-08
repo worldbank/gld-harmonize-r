@@ -4,8 +4,8 @@ Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "GLD", 
             family = "Focal Point", 
-            email = gld@worldbank.org, 
-            role = c("own")),
+            email = "gld@worldbank.org", 
+            role = c("own", "cre")),
       person(given = "Alexandra",
              role = c("ctb")),
       person(given = "Junying",
@@ -17,7 +17,7 @@ Authors@R:
              role = c("aut", "ctb")),
       person(given = "Mario", 
              family = "Gronert", 
-             email = mgronert@worldbank.org, 
+             email = "mgronert@worldbank.org", 
              role = c("ctb")))
 Description: A lightweight set of tools to simplify complex or repeated tasks in survey harmonization.
 License: MIT + file LICENSE
@@ -25,3 +25,20 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Imports: 
+    retroharmonize,
+    pdftools,
+    dplyr,
+    stringr,
+    haven,
+    purrr,
+    ggplot2,
+    assertthat,
+    tibble,
+    tidyr,
+    tidyselect,
+    rlang,
+    stringdist,
+    magrittr,
+    plotly,
+    lifecycle
