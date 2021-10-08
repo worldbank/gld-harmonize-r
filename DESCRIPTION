@@ -25,3 +25,20 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Imports: 
+    retroharmonize,
+    pdftools,
+    dplyr,
+    stringr,
+    haven,
+    purrr,
+    ggplot2,
+    assertthat,
+    tibble,
+    tidyr,
+    tidyselect,
+    rlang,
+    stringdist,
+    magrittr,
+    plotly,
+    lifecycle
